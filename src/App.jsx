@@ -1,3 +1,4 @@
+import CatHumor from "./components/CatHumor"
 import CatsCount from "./components/CatsCount"
 import ColourCat from "./components/ColourCat"
 import FactsCats from "./components/FactsCats"
@@ -16,6 +17,7 @@ function App() {
       <ColourCat />
       <FormAdoption />
       <NewArrivals />
+      <CatHumor />
     </>
   )
 }
