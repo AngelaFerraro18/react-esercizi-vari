@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function formAdoption() {
+function FormAdoption() {
 
     //per lavorare su più input vado a creare un oggetto nello useState per il nome e la razza
     const [catForm, setCatForm] = useState({
@@ -48,4 +48,4 @@ function formAdoption() {
     </>
 }
 
-export default formAdoption;
+export default FormAdoption;
