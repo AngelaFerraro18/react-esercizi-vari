@@ -1,4 +1,5 @@
 import CatsCount from "./components/CatsCount"
+import ShowRandomImage from "./components/ShowRandomImage"
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <CatsCount />
+      <ShowRandomImage />
     </>
   )
 }
