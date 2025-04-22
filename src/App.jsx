@@ -7,7 +7,7 @@ import FactsCats from "./components/FactsCats"
 import NewArrivals from "./components/NewArrivals"
 import ShowRandomImage from "./components/ShowRandomImage"
 import FormAdoption from "./components/formAdoption"
-
+import SetTimerMin from "./components/SetTimerMin"
 
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
       <NewArrivals />
       <CatHumor />
       <CatFactModal />
+      <SetTimerMin />
 
     </>
   )
