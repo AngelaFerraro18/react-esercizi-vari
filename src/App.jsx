@@ -1,3 +1,5 @@
+
+import CatFactModal from "./components/CatFactModal"
 import CatHumor from "./components/CatHumor"
 import CatsCount from "./components/CatsCount"
 import ColourCat from "./components/ColourCat"
@@ -6,7 +8,10 @@ import NewArrivals from "./components/NewArrivals"
 import ShowRandomImage from "./components/ShowRandomImage"
 import FormAdoption from "./components/formAdoption"
 
+
+
 function App() {
+
 
 
   return (
@@ -18,6 +23,8 @@ function App() {
       <FormAdoption />
       <NewArrivals />
       <CatHumor />
+      <CatFactModal />
+
     </>
   )
 }
